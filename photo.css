@@ -1,0 +1,5 @@
+.slike{width:45%; padding:5px; clear:both;}
+.galerija{clear:both; width:100%; margin:auto;}
+@media (max-width: 800px) {
+	.slike{width:90%;}
+}

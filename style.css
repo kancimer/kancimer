@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#gospoda{max-width:800px; width:100%; padding:0; margin: auto 0;}
+h1,h2,h3,h4,h5,h6{font-family:Muli;}
+.wrapper {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+	padding:0;
+}
+header{background-image:url('peta.jpg');
+	background-repeat: no-repeat;}
+
+.traka {
+    text-align: left;
+    color: rgb(173, 207, 146);
+    font-size: 38px;
+    text-decoration: none;
+}
+body{background-color:rgb(173, 207, 146); font-family:Muli}
+.glavni_clanak {
+	width: 100%;
+	}
+
+.width_1-3 {
+    width: 33.3%;
+}
+.fl_left {
+    float:left;
+}
+ul {
+    list-style-type: none;
+    width: 100%;
+}
+nav {
+    margin-top: -5px;
+}
+nav li {
+    float: left;
+    width: 20%;
+    background-color: black;
+}
+nav a {
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    padding: 15px 0px;
+    text-decoration: none;
+    color: rgb(173, 207, 146);
+    text-transform: uppercase;
+}
+nav a:hover {background-color: rgb(9, 67, 42); color: rgb(173, 207, 146);
+}
+h1{font-size:20px; float:left;}
+main {
+    clear: both;
+    padding-top: 30px;
+}
+p {
+	padding: 20px;
+	font-family:Montserrat;
+}
+article p {    
+    padding: 30px;
+}
+footer {
+    background-color: rgb(9, 67, 42);
+    color: rgb(173, 207, 146);
+    /*text-indent: 10;*/
+	box-sizing: border-box;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 23%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 74%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media (max-width: 800px) {
+    nav li {
+        width: 100%;
+    }
+	h1{color:rgb(9, 67, 42);}
+    section .traka {
+        text-align: right;
+    }
+   
+    footer {
+        padding: 15px 0px;
+        text-align: left;
+    }
+	.traka img{display:none;}
+	.col-25, .col-75, input[type=submit] {
+    width: 90%;
+    margin-top: 0;
+  }
+}
